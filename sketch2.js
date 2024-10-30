@@ -23,7 +23,7 @@ function draw() {
   let a = mouseX / 2 - 50;
   let b = mouseY / 2 - 50;
   fill(color('#DAF7A6'));
-  rect(stemX, stemY, r, b); // following delay
+  rect(stemX, stemY, a, b); // following delay
 
   //for movement even while user is stationary
   let petalOffset = 15 + sin(frameCount * 0.05) * 5; 
@@ -36,7 +36,7 @@ function draw() {
   circle(mouseX - petalOffset, mouseY, (b - a) + 15);
 
   fill(color('#FFC300'));
-  circle(mouseX, mouseY, b - r);
+  circle(mouseX, mouseY, b - a);
 }
 
 function keyPressed() {
