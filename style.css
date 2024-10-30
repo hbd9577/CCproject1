@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+#web-title{
+  font-size: 4em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+#vol {
+  font-size: 1.75em;
+  margin: 0;
+  display: inline-block;
+}
+
+
+/*imported font to give that zine feel somewhat*/
+@font-face {
+  font-family: 'TheSeasons';
+  src: url('Fontspring-DEMO-theseasons-bd.otf') format('truetype'); 
+  font-weight: normal; /* Optional: define font weight */
+  font-style: normal; /* Optional: define font style */
+}
